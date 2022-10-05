@@ -4,3 +4,45 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+
+/* barra sopra  */
+
+
+
+.container-big-up {
+    height: 85vh;
+    background-color: aqua;
+    display: flex;
+}
+
+
+.navbar-lato {
+    background-color: green;
+    height: 100%;
+    width: 350px;
+}
+
+.cont-navbar-sopraecentro {
+    background-color: black;
+    height: 85vh;
+    width: 100vw;
+}
+
+
+.navbar-sopra {
+    background-color: yellow;
+    height: 10vh;
+}
+
+.navbar-centro {
+    background-color: aqua;
+    height: 75vh;
+}
+
+.navbar-down {
+    background-color: black;
+    height: 20vh;
+}
