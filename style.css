@@ -23,7 +23,6 @@
 
 .navbar-lato {
     background-color: green;
-    height: 100%;
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -43,7 +42,85 @@
     font-size: 1.5em;
     padding: 1em;
     gap: 0.5em;
+    height: 15vh;
 }
+
+.navbar-lato p {
+    margin: 0.5em;
+    font-size: 2em;
+    color: rgb(180, 176, 176);
+
+}
+
+.playlist {
+    height: 50vh;
+    background-color: red;
+}
+
+
+.playlist i  {
+    background-color: gray;
+    color: black;
+    padding: 0.5em;
+    font-size: 0.8em;
+    border-radius: 10px;
+}
+
+.playlist p {
+    color: rgb(180, 176, 176);
+
+}
+
+.installa-app {
+    height: 13vh;
+    background-color: chartreuse;
+}
+
+.installa-app i{
+    font-size: 0.7em;
+}
+
+.installa-app p {
+    font-size: 1.5em;
+}
+
+
+.installa-app .barra-installa {
+    height: 2px;
+    background-color: gray;
+    width: 90%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.installa-app .foto-installa {
+    margin-top: 1em;
+    /* margin-left: 0.5em; */
+    font-size: 1.5em;
+}
+
+.installa-app .foto-installa i {
+    font-size: 1em;
+    padding: 0.5em;
+    background-color: gray;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
