@@ -13,17 +13,51 @@
 
 
 .container-big-up {
-    height: 85vh;
+    height: 90vh;
     background-color: aqua;
     display: flex;
 }
+
+/* barra laterale  */
 
 
 .navbar-lato {
     background-color: green;
     height: 100%;
     width: 350px;
+    display: flex;
+    flex-direction: column;
 }
+
+
+.navbar-lato img {
+    padding: 1em;
+    height: 5em;
+}
+
+.navbar-lato .home-cerca-libre {
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    color: rgb(180, 176, 176);
+    font-size: 1.5em;
+    padding: 1em;
+    gap: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cont-navbar-sopraecentro {
     background-color: black;
@@ -44,5 +78,5 @@
 
 .navbar-down {
     background-color: black;
-    height: 20vh;
+    height: 10vh;
 }
