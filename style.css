@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -31,7 +31,7 @@
 
 .navbar-lato img {
     padding: 1em;
-    height: 5em;
+    height: 4em;
 }
 
 .navbar-lato .home-cerca-libre {
@@ -39,23 +39,33 @@
     display: flex;
     flex-direction: column;
     color: rgb(180, 176, 176);
-    font-size: 1.5em;
-    padding: 1em;
-    gap: 0.5em;
+    font-size: 1em;
+    /* padding: 1em; */
+    gap: 0.8em;
     height: 15vh;
+} 
+
+
+.navbar-lato .home-cerca-libre img {
+    height: 20px;
+    padding: 0;
+    margin-left: 20px;
 }
+
+
+
+
 
 .navbar-lato p {
     margin: 0.5em;
-    font-size: 2em;
+    font-size: 1em;
     color: rgb(180, 176, 176);
-
-}
+} 
 
 .playlist {
     height: 50vh;
     background-color: red;
-}
+} 
 
 
 .playlist i  {
@@ -64,25 +74,23 @@
     padding: 0.5em;
     font-size: 0.8em;
     border-radius: 10px;
-}
-
-.playlist p {
-    color: rgb(180, 176, 176);
-
-}
+} 
 
 .installa-app {
     height: 13vh;
     background-color: chartreuse;
-}
+} 
+
 
 .installa-app i{
     font-size: 0.7em;
-}
+    margin-left: 0.5em;
+
+} 
 
 .installa-app p {
-    font-size: 1.5em;
-}
+    font-size: 1em;
+} 
 
 
 .installa-app .barra-installa {
@@ -91,48 +99,24 @@
     width: 90%;
     margin-left: 0.5em;
     margin-right: 0.5em;
-}
+} 
 
 .installa-app .foto-installa {
     margin-top: 1em;
-    /* margin-left: 0.5em; */
-    font-size: 1.5em;
-}
+    font-size: 1em;
+    color: white;
+} 
 
 .installa-app .foto-installa i {
     font-size: 1em;
+    margin-left: 0.5em;
     padding: 0.5em;
     background-color: gray;
     border-radius: 30px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* fine barra laterale  */
 
 
 
@@ -143,17 +127,101 @@
 }
 
 
+
+/* NAVBAR SOPRA  */
+
+
 .navbar-sopra {
-    background-color: yellow;
+    background-color: black;
     height: 10vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+.navbar-sopra p {
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 0.8em;
+}
+
+.navbar-sopra p:hover {
+    background-color: white;
+    color: black;
+    scale: 1.1;
+    transition: 1.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-centro {
     background-color: aqua;
     height: 75vh;
 }
 
+
+
+
+
+
+
+
+/* BARRA SOTTO  */
+
 .navbar-down {
     background-color: black;
     height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* parte sinistra  */
+
+.down-left {
+    background-color: blue;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+}
+
+.down-left img {
+    height: 3.5em;
+}
+
+.down-left p {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+
+
+
+.down-center {
+    background-color: rebeccapurple;
+    width: 40vw;
+}
+
+.down-right {
+    width: 25vw;
+    background-color: chartreuse;
 }
