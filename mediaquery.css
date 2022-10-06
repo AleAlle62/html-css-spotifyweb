@@ -2,5 +2,11 @@
 @media screen and (max-width: 552px ) {
     .navbar-lato {
         width: 100px;
+        z-index: 20;
+        height: 100vh;
+    }
+
+    .navbar-donw {
+        z-index: 10;
     }
 }
