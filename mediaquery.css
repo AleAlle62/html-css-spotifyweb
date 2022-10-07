@@ -5,7 +5,7 @@
 @media screen and (min-width: 878px) {
     
     .navbar-centro .centro-album img {
-        height: 150px;
+        height: 130px;
     }
     
 }
@@ -89,7 +89,8 @@
         height: 70px;
         margin-left: -10px;
     }
-    
+
+
     .home-cerca-libre .ul-due {
         display: none;
     }
@@ -106,8 +107,41 @@
         display: none;
     }
 
+    .installa-app {
+        display: none;
+    }
+
+    /* barra sotto  */
+
+    .navbar-down {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navbar-down .down-left img {
+        height: 50px;
+    }
+
+    .navbar-down .down-left p {
+        display: none;
+    }
+
+    .navbar-down .down-left i {
+        display: none;
+    }
+
+
+    .down-center .down-center-down p {
+        display: none;
+    }
+
+    .navbar-down .down-right i {
+        display: none;
+    }
 
 
 
 
 }
+
+

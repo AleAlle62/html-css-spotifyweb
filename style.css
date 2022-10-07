@@ -24,7 +24,7 @@
 
 
 .navbar-lato {
-    background-color: green;
+    background-color: black;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -43,15 +43,14 @@ li {
 
 .home-cerca-libre .li-due {
     list-style: none;
-    color: white;
+    color: #383838;
     padding: 0.4em;
 }
 
 .navbar-lato .home-cerca-libre {
-    background-color: fuchsia;
+    background-color: black;
     display: flex;
     flex-direction: row;
-    color: rgb(180, 176, 176);
     font-size: 1em;
     /* padding: 1em; */
     gap: 0.8em;
@@ -70,27 +69,17 @@ li {
 .navbar-lato p {
     margin: 0.5em;
     font-size: 1em;
-    color: rgb(180, 176, 176);
+    color: #383838;
 } 
 
 
 .playlist {
     height: 50vh;
     padding: 1em;
-    background-color: red;
+    background-color: black;
 } 
 
-.playlist p:hover {
 
-    text-decoration: underline;
-    color: black;
-    background-color: #1bd760;
-    width: 7em;
-    transition: 1.5s;
-    scale: 1.1;
-    border-radius: 20px;
-    text-align: center;
-}
 
 .playlist i  {
     background-color: gray;
@@ -102,15 +91,16 @@ li {
 
 .installa-app {
     height: 13vh;
-    background-color: chartreuse;
+    background-color: black;
 } 
 
 
 .installa-app i{
     font-size: 0.7em;
     margin-left: 0.5em;
-
 } 
+
+
 
 .installa-app p {
     font-size: 1em;
@@ -135,7 +125,7 @@ li {
     font-size: 1em;
     margin-left: 0.5em;
     padding: 0.5em;
-    background-color: gray;
+    background-color: #383838;
     border-radius: 30px;
 }
 
@@ -157,7 +147,7 @@ li {
 
 
 .navbar-sopra {
-    background-color: black;
+    background-color: #191925;
     height: 10vh;
     opacity: 1;
     display: flex;
@@ -174,12 +164,7 @@ li {
     font-size: 0.8em;
 }
 
-.navbar-sopra p:hover {
-    background-color: #1bd760;
-    color: black;
-    scale: 1.1;
-    transition: 1.5s;
-}
+
 
 
 
@@ -193,13 +178,13 @@ li {
 /* inizio parte centrale  */
 
 .navbar-centro {
-    background-color: aqua;
+    background-color: #272b35;
 }
 
 
 
 .barra-centro-up {
-    background-color: green;
+    background-color:#272b35;
     height: 5vh;
     display: flex;
     justify-content: center;
@@ -209,9 +194,11 @@ li {
 }
 
 
+
 .mini-centro-up {
-    background-color: yellow;
+    background-color: #272b35;
     height: 100%;
+    color: #7a7e87;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -234,7 +221,7 @@ li {
 .navbar-centro .centro-album {
     height: 25vh;
     width: 100%;
-    background-color: red;
+    background-color: #272b35;
     display: flex;
     gap: 2px;
     align-items: center;
@@ -242,9 +229,21 @@ li {
 }
 
 
-.card-1 img {
-    height: 110px;
+.play-album {
+    position: relative;
+} 
+
+.card-1 i {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    color: white;
+    font-size: 2em;
+    opacity: 0.5;
 }
+
+
+
 
 .card-1 h4 {
     color: white;
@@ -261,8 +260,23 @@ li {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .album-sotto {
-    background-color: #1bd760;
+    background-color: #272b35;
     width: 50%;
     height: 25vh;
     display: flex;
@@ -292,7 +306,7 @@ li {
 
 
 .album-sotto-sotto {
-    background-color: #1bd760;
+    background-color: #272b35;
     width: 50%;
     height: 25vh;
     display: flex;
@@ -337,7 +351,7 @@ li {
 /* BARRA SOTTO  */
 
 .navbar-down {
-    background-color: black;
+    background-color: #383838;
     height: 10vh;
     /* position: fixed; */
     /* min-width: 892px; */
@@ -349,7 +363,7 @@ li {
 /* parte sinistra  */
 
 .down-left {
-    background-color: blue;
+    background-color: #383838;
     /* width: 25%; */
     display: flex;
     align-items: center;
@@ -370,7 +384,7 @@ li {
 
 
 .down-center {
-    background-color: rebeccapurple;
+    background-color: #383838;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -378,7 +392,7 @@ li {
 
 
 .down-center-up {
-    background-color: brown;
+    background-color: #383838;
     height: 50%;
     display: flex;
     gap: 3em;
@@ -390,7 +404,7 @@ li {
 
 
 .down-center-down {
-    background-color: darkgoldenrod;
+    background-color: #383838;
     height: 50%;
     display: flex;
     gap: 3em;
@@ -404,7 +418,7 @@ li {
 
 .down-center-down .barra-caricamento {
     height: 5px;
-    background-color: yellow;
+    background-color: #383838;
     width: 100%;
     display: flex;  
 }
@@ -439,7 +453,7 @@ li {
 
 .down-right {
     width: 25%;
-    background-color: chartreuse;
+    background-color: #383838;
     display: flex;
     align-items: center;
     justify-content: space-around;

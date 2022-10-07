@@ -1,0 +1,44 @@
+.card-1 i:hover {
+    opacity: 1;
+    transition: 1.5s;
+    scale: 1.5;
+}
+
+.down-center-up i:hover {
+    transition: 1.2s;
+    scale: 1.2;
+    background-color: #1bd760;
+    border-radius: 10px;
+}
+
+
+.home-cerca-libre .li-due:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.playlist p:hover {
+
+    text-decoration: underline;
+    color: black;
+    background-color: #1bd760;
+    width: 7em;
+    transition: 1.5s;
+    scale: 1.1;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.installa-app p:hover {
+    color: white;
+    transition: 1.2s;
+}
+
+
+.navbar-sopra p:hover {
+    background-color: #1bd760;
+    color: black;
+    scale: 1.1;
+    transition: 1.5s;
+}
