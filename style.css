@@ -16,14 +16,25 @@
     height: 90vh;
     background-color: aqua;
     display: flex;
+    min-width: 892px;
 }
+
+/* .scrollbar {
+    overflow-y: scroll;
+    float: right;
+    max-height: 150px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    background-color: #1bd760;
+} */
 
 /* barra laterale  */
 
 
 .navbar-lato {
     background-color: green;
-    width: 350px;
+    width: 250px;
     display: flex;
     flex-direction: column;
 }
@@ -133,9 +144,10 @@
 
 
 .cont-navbar-sopraecentro {
-    background-color: black;
-    height: 85vh;
+    height: 95vh;
     width: 100vw;
+    overflow-y: scroll;
+    max-height: 100%;
 }
 
 
@@ -146,7 +158,7 @@
 .navbar-sopra {
     background-color: black;
     height: 10vh;
-    /* opacity: 0.5; */
+    opacity: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -181,7 +193,8 @@
 
 .navbar-centro {
     background-color: aqua;
-    height: 75vh;
+    height: 80vh;
+    
 }
 
 
@@ -220,17 +233,18 @@
 
 
 .navbar-centro .centro-album {
-    height: 25vh;
-    max-width: 100%;
+    height: 35vh;
+    width: 100%;
     background-color: red;
     display: flex;
+    gap: 2px;
     align-items: center;
     justify-content: space-around;
 }
 
 
 .card-1 img {
-    height: 7em;
+    height: 130px;
 }
 
 .card-1 h4 {
@@ -248,12 +262,57 @@
 
 
 
+.album-sotto {
+    background-color: #1bd760;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-centro .ascolti {
+    color: gray;
+    margin-top: -20px;
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+
+.card-due img {
+    height: 9em;
+}
+
+.card-due h4 {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
 
 
 
+.album-sotto-sotto {
+    background-color: #1bd760;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
+.card-tre img {
+    height: 9em;
+    clip-path: circle(closest-side at center);
+}
 
+.card-tre h4 {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
 
 
 
@@ -281,6 +340,7 @@
 .navbar-down {
     background-color: black;
     height: 10vh;
+    min-width: 892px;
     display: flex;
     justify-content: space-around;
 }
