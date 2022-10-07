@@ -203,14 +203,48 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 700px;
 }
+
 
 .barra-centro-up span:hover {
     text-decoration: underline #1bd760 3px;
     transition: 1.5s;
 }
 
+
+.navbar-centro h2 {
+    color: white;
+    padding: 1em;
+}
+
+
+.navbar-centro .centro-album {
+    height: 25vh;
+    max-width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card-1 img {
+    height: 7em;
+}
+
+.card-1 h4 {
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.card-1 p {
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+}
 
 
 
@@ -258,7 +292,6 @@
     background-color: blue;
     width: 25vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 1em;
     color: white;
