@@ -16,18 +16,9 @@
     height: 90vh;
     background-color: aqua;
     display: flex;
-    min-width: 892px;
+    width: 100vw;
 }
 
-/* .scrollbar {
-    overflow-y: scroll;
-    float: right;
-    max-height: 150px;
-    width: 100px;
-    position: absolute;
-    right: 0;
-    background-color: #1bd760;
-} */
 
 /* barra laterale  */
 
@@ -43,13 +34,23 @@
 .navbar-lato img {
     padding: 1em;
     height: 5em;
+}
 
+li {
+    padding: 0.3em;
+    list-style: none;
+}
+
+.home-cerca-libre .li-due {
+    list-style: none;
+    color: white;
+    padding: 0.4em;
 }
 
 .navbar-lato .home-cerca-libre {
     background-color: fuchsia;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: rgb(180, 176, 176);
     font-size: 1em;
     /* padding: 1em; */
@@ -193,8 +194,6 @@
 
 .navbar-centro {
     background-color: aqua;
-    height: 80vh;
-    
 }
 
 
@@ -233,7 +232,7 @@
 
 
 .navbar-centro .centro-album {
-    height: 35vh;
+    height: 25vh;
     width: 100%;
     background-color: red;
     display: flex;
@@ -244,7 +243,7 @@
 
 
 .card-1 img {
-    height: 130px;
+    height: 110px;
 }
 
 .card-1 h4 {
@@ -264,7 +263,7 @@
 
 .album-sotto {
     background-color: #1bd760;
-    width: 35vw;
+    width: 50%;
     height: 25vh;
     display: flex;
     gap: 5px;
@@ -294,7 +293,7 @@
 
 .album-sotto-sotto {
     background-color: #1bd760;
-    width: 35vw;
+    width: 50%;
     height: 25vh;
     display: flex;
     gap: 5px;
@@ -340,9 +339,10 @@
 .navbar-down {
     background-color: black;
     height: 10vh;
-    min-width: 892px;
+    /* position: fixed; */
+    /* min-width: 892px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -350,7 +350,7 @@
 
 .down-left {
     background-color: blue;
-    width: 25vw;
+    /* width: 25%; */
     display: flex;
     align-items: center;
     gap: 1em;
@@ -371,7 +371,7 @@
 
 .down-center {
     background-color: rebeccapurple;
-    width: 40vw;
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -438,7 +438,7 @@
 
 
 .down-right {
-    width: 25vw;
+    width: 25%;
     background-color: chartreuse;
     display: flex;
     align-items: center;

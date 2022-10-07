@@ -1,12 +1,113 @@
 
-@media screen and (max-width: 552px ) {
-    .navbar-lato {
-        width: 100px;
-        z-index: 20;
-        height: 100vh;
+
+    /* quando e' grande  */
+
+@media screen and (min-width: 878px) {
+    
+    .navbar-centro .centro-album img {
+        height: 150px;
+    }
+    
+}
+
+/* da appena 878 px in giu  */
+
+
+@media screen and (max-width: 878px) {
+    
+    .navbar-centro .centro-album {
+        flex-wrap: wrap;
+        gap: 15px;
+        display: flex;
+        justify-content: flex-start;
+        height: 25em;
+    }
+    
+    .navbar-centro .centro-album img {
+        height: 130px;
+    }
+    
+
+    /* da 639 px in giu visualizzazione a due a due  */
+
+@media screen and (max-width: 639px) {
+
+    .navbar-centro .centro-album {
+        flex-wrap: wrap;
+        gap: 25px;
+        display: flex;
+        justify-content:center;
+        height: 50em;
+    }
+    
+    .navbar-centro .centro-album img {
+        height: 200px;
     }
 
-    .navbar-donw {
-        z-index: 10;
+    .navbar-centro .album-sotto img{
+        height: 150px;
     }
+
+    .navbar-centro .album-sotto {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-centro .album-sotto-sotto img{
+        height: 150px;
+    }
+
+    .navbar-centro .album-sotto-sotto {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-centro .barra-centro-up .mini-centro-up .non-vis {
+        display: none;
+    }
+
+    .navbar-centro .barra-centro-up .mini-centro-up span {
+        font-size: 8px;
+    }
+
+
+}
+
+
+
+/* smartphone  */
+
+
+@media screen and (max-width: 552px) {
+    .navbar-lato {
+        width: 50px;
+    }
+
+    .navbar-lato img {
+        height: 70px;
+        margin-left: -10px;
+    }
+    
+    .home-cerca-libre .ul-due {
+        display: none;
+    }
+
+    .home-cerca-libre .ul-uno img {
+        margin-left: 7px;
+    }
+
+    .home-cerca-libre p {
+        display: none;
+    }
+
+    .navbar-lato p {
+        display: none;
+    }
+
+
+
+
+
 }
