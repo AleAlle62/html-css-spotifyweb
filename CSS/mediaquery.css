@@ -168,7 +168,7 @@
 
 @media screen and (max-width: 462px) {
     .navbar-centro .album-secondo-blocco h2 {
-        margin-top: 1250px;
+        margin-top: -150px;
     }
 
     .navbar-centro .album-secondo-blocco img {
@@ -181,6 +181,10 @@
 
     .navbar-down .down-center .down-center-up .rotate {
         display: none;
+    }
+
+    .navbar-centro .centro-album img {
+        height: 150px;
     }
 
 
